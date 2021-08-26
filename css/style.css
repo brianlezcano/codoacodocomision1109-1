@@ -4,8 +4,59 @@ selector{
 }
 */
 body{
-    background-color: rgb(220, 183, 255);
+    background-color: rgb(225, 132, 34); 
 }
 h1,h2{
     text-align: center;
+}
+header{
+    background-image: url("./img/Recetas_Invierno_V3_Gourmet.jpg"); 
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+header h1 {
+    background-color: rgb(125, 125, 169);
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    left: 250px;
+    
+} 
+
+nav ol li {
+
+    display: inline;
+    color: white;
+    padding: 15px;
+    margin: 5px 10px;
+}
+
+article {                        
+   background: linear-gradient(blue, green);
+   width: 80%;
+   margin: 10%;
+
+    padding-top: 50px;
+}
+
+nav ol li a  {
+    text-decoration: none;
+    color: white;
+    
+}
+nav ol li:hover{
+    background-color: green;
+    color: yellow;
+    box-shadow:5px 3px 5px violet;
 }
