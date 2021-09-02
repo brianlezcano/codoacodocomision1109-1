@@ -10,10 +10,11 @@ h1,h2{
     text-align: center;
 }
 header{
-    background-image: url("./img/Recetas_Invierno_V3_Gourmet.jpg"); 
+    background-image: url("../img/Recetas_Invierno_V3_Gourmet.jpg"); 
     height: 300px;
     display: flex;
     justify-content: flex-end;
+    
 
 
 
@@ -43,7 +44,7 @@ nav ol li {
 }
 
 article {                        
-   background: linear-gradient(blue, green);
+   background: linear-gradient(rgb(4, 145, 119), rgb(5, 133, 232));
    width: 80%;
    margin: 10%;
 
