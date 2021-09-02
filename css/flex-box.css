@@ -1,0 +1,31 @@
+#justify {
+
+    display: flex;
+    /* justify-content: center; para centrar los hijos */
+    /* justify-content: flex-end; para posicionar al final */
+    /* justify-content: flex-start; el que viene por defecto  */
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    justify-content: space-evenly;
+}
+.primero{
+    /* width: 150px;
+    height: 150px; */
+    background-color: blue;
+    float: left;
+}
+.primero::after{
+    content: "este es despues del contenido";
+    color: white;
+    font-size: 20px;
+}
+.primero::before{
+
+    content: "esto es para antes del contenido" ;
+    color: white;
+    font-size: 10px;
+}
+li{
+    display: inline;
+}
