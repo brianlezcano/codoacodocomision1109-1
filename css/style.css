@@ -4,7 +4,7 @@ selector{
 }
 */
 body{
-    background-color: rgb(225, 132, 34); 
+    background-color: rgb(235, 174, 44); 
 }
 h1,h2{
     text-align: center;
@@ -14,13 +14,14 @@ header{
     height: 300px;
     display: flex;
     justify-content: flex-end;
+
     
 
 
 
 }
 header h1 {
-    background-color: rgb(125, 125, 169);
+    background-color: rgb(255, 132, 0);
     padding: 10px;
     width: 300px;
     height: 50px;
@@ -44,7 +45,7 @@ nav ol li {
 }
 
 article {                        
-   background: linear-gradient(rgb(4, 145, 119), rgb(5, 133, 232));
+   background: linear-gradient(rgb(0, 0, 0), rgb(5, 133, 232));
    width: 80%;
    margin: 10%;
 
@@ -53,7 +54,7 @@ article {
 
 nav ol li a  {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     
 }
 nav ol li:hover{
